@@ -10,7 +10,7 @@ passport.serializeUser((user, done) => {
 });
 
 passport.deserializeUser((id, done) => {
-  console.log('passport deserializeUser');
+  // console.log('passport deserializeUser');
   User.findById(id).then((user) => {
     done(null, user);
   });
