@@ -1,5 +1,4 @@
 node_modules/
 nohup.out
 config/dev.js
-config/ci.js
 .DS_Store
