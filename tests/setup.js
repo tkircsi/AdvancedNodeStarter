@@ -18,3 +18,7 @@ mongoose
   .catch((err) => {
     console.log(`MongoDB Error: ${err.message}`);
   });
+
+afterAll(async () => {
+  await mongoose.connection.close();
+});
