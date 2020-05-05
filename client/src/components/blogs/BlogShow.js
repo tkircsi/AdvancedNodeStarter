@@ -15,6 +15,7 @@ class BlogShow extends Component {
             'https://blogster-bucket-74.s3.eu-central-1.amazonaws.com/' +
             this.props.blog.imageUrl
           }
+          alt="blog_image"
         />
       );
     }
